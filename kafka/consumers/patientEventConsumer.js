@@ -1,3 +1,4 @@
+
 const { consumer } = require('../../config/kafka');
 
 const startPatientConsumer = async () => {

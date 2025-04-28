@@ -2,7 +2,7 @@
 
 const {
     addMedicalRecordService,
-    getMedicalRecordsByPatientService
+    getMedicalRecordsByPatientService,
   } = require('../services/medicalRecord.service');
   
   // Add a new medical record
@@ -27,6 +27,6 @@ const {
   
   module.exports = {
     addMedicalRecord,
-    getMedicalRecordsByPatient
+    getMedicalRecordsByPatient,
   };
   
